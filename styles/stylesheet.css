@@ -1,9 +1,11 @@
 html {
     height: 100%;
+    width: 100%;
 }
 
 body {
     height: 100%;
+    width: 100%;
     display: grid;
     grid-gap: 20px;
     grid-template-rows: 140px auto;
@@ -30,6 +32,13 @@ body {
     /* Just simulating, will change in image file later*/
     border: solid 2px;
     border-color: black;
+}
+
+#titlephrase {
+    grid-column: 2 / 3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28pt;
+    margin-top: 85px;
 }
 
 .main-container {
